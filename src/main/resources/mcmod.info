@@ -1,0 +1,16 @@
+[
+{
+  "modid": "followingvillagers",
+  "name": "Following Villagers",
+  "description": "Simple mod that cause Villagers to follow players holding emerald blocks.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Pyre540"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
