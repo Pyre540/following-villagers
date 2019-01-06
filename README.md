@@ -5,6 +5,7 @@
 Following Villagers is a [Minecraft](https://minecraft.net/) mod that cause Villagers to follow players holding emerald blocks.
 
 ## More Info
+[Minecraft Forum](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/2942608)<br/>
 [CurseForge](https://minecraft.curseforge.com/projects/following-villagers)
 
 ## Downloads

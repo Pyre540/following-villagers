@@ -13,10 +13,10 @@ public class EventHandler {
 
     @SubscribeEvent
     public static void addVillagerFollowTast(EntityJoinWorldEvent event) {
-        if (event.getEntity() instanceof EntityVillager) {
+        if (!event.getWorld().isRemote && event.getEntity() instanceof EntityVillager) {
             EntityVillager villager = (EntityVillager)event.getEntity();
             EntityAITempt followPlayerTask = new EntityAITempt(villager, 0.6D, Item.getItemFromBlock(Blocks.EMERALD_BLOCK), false);
-            ((EntityVillager)event.getEntity()).tasks.addTask(3, followPlayerTask);
+            villager.tasks.addTask(3, followPlayerTask);
         }
     }
 }
