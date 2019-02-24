@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[25,)"
+issueTrackerURL="https://github.com/Pyre540/following-villagers/issues"
+logoFile="logo.png"
+
+[[mods]]
+    modId="followingvillagers"
+    version="${version}"
+    displayName="Following Villagers"
+    displayURL="https://minecraft.curseforge.com/projects/following-villagers"
+    authors="Pyre540"
+    description='''
+    Simple mod that cause Villagers to follow players holding emerald blocks.
+    '''
+
+[[dependencies.followingvillagers]]
+    modId="forge"
+    mandatory=true
+    versionRange="[25,)"
+    ordering="NONE"
+    side="BOTH"
