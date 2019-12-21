@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[28,)"
+loaderVersion="[30,)"
 issueTrackerURL="https://github.com/Pyre540/following-villagers/issues"
 logoFile="logo.png"
 
@@ -16,6 +16,6 @@ logoFile="logo.png"
 [[dependencies.followingvillagers]]
     modId="forge"
     mandatory=true
-    versionRange="[28,)"
+    versionRange="[30,)"
     ordering="NONE"
     side="BOTH"

@@ -10,7 +10,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 public class EventHandler {
 
     @SubscribeEvent
-    public void addVillagerFollowTast(final EntityJoinWorldEvent event) {
+    public void addVillagerFollowTask(final EntityJoinWorldEvent event) {
         if (!event.getWorld().isRemote && event.getEntity() instanceof VillagerEntity) {
             VillagerEntity villager = (VillagerEntity) event.getEntity();
             TemptGoal followPlayerTask = new TemptGoal(villager, 0.5D, Ingredient.fromItems(Blocks.EMERALD_BLOCK.asItem()), false);
